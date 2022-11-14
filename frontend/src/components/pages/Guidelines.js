@@ -4,12 +4,14 @@
 import React from 'react';
 import '../../App.css';
 import GuidelinesSection from '../GuidelinesSection';
+import Footer from '../Footer';
 
 function Guidelines() {
 
     return (
         <>
             <GuidelinesSection />
+            <Footer />
         </>
     );
 }
